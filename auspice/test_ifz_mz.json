@@ -1,0 +1,655 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Hello world!",
+    "updated": "2023-04-02",
+    "build_url": "http://www.your-nextstrain.url",
+    "maintainers": [
+      {
+        "name": "username",
+        "url": "http://www.yourpath.url"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": false,
+      "geo_resolution": "region",
+      "layout": "rect",
+      "transmission_lines": false,
+      "sidebar": "open",
+      "panels": [
+        "tree",
+        "map"
+      ]
+    },
+    "genome_annotations": {
+      "nuc": {
+        "end": 1701,
+        "start": 1,
+        "strand": "+",
+        "seqid": "config/reference.gb",
+        "type": "source"
+      },
+      "HA": {
+        "end": 1701,
+        "seqid": "config/reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      }
+    ],
+    "filters": [],
+    "geo_resolutions": [
+      {
+        "key": "region",
+        "demes": {
+          "Asia": {
+            "latitude": 29.84,
+            "longitude": 89.29
+          },
+          "Europe": {
+            "latitude": 48.69,
+            "longitude": 9.14
+          },
+          "North America": {
+            "latitude": 46.07,
+            "longitude": -100.54
+          },
+          "South America": {
+            "latitude": -14.6,
+            "longitude": -57.65
+          }
+        }
+      },
+      {
+        "key": "country",
+        "demes": {
+          "Japan": {
+            "latitude": 36.0,
+            "longitude": 138.0
+          },
+          "Korea (the Republic of)": {
+            "latitude": 37.0,
+            "longitude": 127.5
+          },
+          "New Zealand": {
+            "latitude": -41.0,
+            "longitude": 174.0
+          },
+          "China": {
+            "latitude": 35.0,
+            "longitude": 105.0
+          },
+          "Australia": {
+            "latitude": -27.0,
+            "longitude": 133.0
+          },
+          "United States of America (the)": {
+            "latitude": 38.0,
+            "longitude": -97.0
+          },
+          "France": {
+            "latitude": 46.0,
+            "longitude": 2.0
+          },
+          "Kosovo": {
+            "latitude": 42.52,
+            "longitude": 21.0
+          },
+          "Thailand": {
+            "latitude": 15.0,
+            "longitude": 100.0
+          },
+          "Russian Federation (the)": {
+            "latitude": 60.0,
+            "longitude": 100.0
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1997.5482260988222,
+        "confidence": [
+          1996.2399209800967,
+          1998.3191463888577
+        ]
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000005",
+        "node_attrs": {
+          "div": 0.006492780181507699,
+          "num_date": {
+            "value": 2000.5248242605533,
+            "confidence": [
+              1999.7564070361097,
+              2001.0481194653885
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "G6A",
+              "A99G",
+              "G115A",
+              "T482C",
+              "G602T",
+              "C701A",
+              "C808T",
+              "C813A",
+              "C1061T",
+              "T1108C",
+              "G1110A",
+              "A1233T",
+              "T1254C",
+              "G1370A",
+              "C1425A",
+              "T1434C",
+              "T1461C",
+              "C1579G",
+              "T1595G",
+              "C1678T"
+            ],
+            "HA": [
+              "E39K",
+              "I161T",
+              "R201L",
+              "S234Y",
+              "S354F",
+              "C457Y",
+              "D475E",
+              "Q527E",
+              "L532W",
+              "H560Y"
+            ]
+          },
+          "labels": {
+            "aa": "HA: E39K, I161T, R201L, S234Y, S354F, C457Y, D475E, Q527E, L532W, H560Y"
+          }
+        },
+        "children": [
+          {
+            "name": "CY112948_A_Netherlands_1_2002",
+            "node_attrs": {
+              "div": 0.008845826008098065,
+              "num_date": {
+                "value": 2002.017808219178,
+                "confidence": [
+                  2002.017808219178,
+                  2002.017808219178
+                ]
+              },
+              "accession": "CY112953",
+              "region": {
+                "value": "Asia"
+              },
+              "country": {
+                "value": "Thailand"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A375G",
+                  "T470G",
+                  "A1186G",
+                  "A1257G"
+                ],
+                "HA": [
+                  "I157R"
+                ]
+              },
+              "labels": {
+                "aa": "HA: I157R"
+              }
+            }
+          },
+          {
+            "name": "NODE_0000006",
+            "node_attrs": {
+              "div": 0.010616905462152007,
+              "num_date": {
+                "value": 2001.6336834685676,
+                "confidence": [
+                  2001.2939141138884,
+                  2001.9149169911282
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A118G",
+                  "C211T",
+                  "T250C",
+                  "G503A",
+                  "G707A",
+                  "C804A",
+                  "C1593T"
+                ],
+                "HA": [
+                  "T40A",
+                  "L71F",
+                  "*84Q",
+                  "S168N",
+                  "G236E",
+                  "F268L"
+                ]
+              },
+              "labels": {
+                "aa": "HA: T40A, L71F, *84Q, S168N, G236E, F268L"
+              }
+            },
+            "children": [
+              {
+                "name": "CY002335_A_New_York_77_2001",
+                "node_attrs": {
+                  "div": 0.011794607547809999,
+                  "num_date": {
+                    "value": 2001.9849315068493,
+                    "confidence": [
+                      2001.9849315068493,
+                      2001.9849315068493
+                    ]
+                  },
+                  "accession": "CY002340",
+                  "region": {
+                    "value": "Asia"
+                  },
+                  "country": {
+                    "value": "Russian Federation (the)"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C1149A",
+                      "A1224T"
+                    ],
+                    "HA": [
+                      "L408F"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA: L408F"
+                  }
+                }
+              },
+              {
+                "name": "CY000216_A_New_York_91_2002",
+                "node_attrs": {
+                  "div": 0.011793830609055932,
+                  "num_date": {
+                    "value": 2002.045205479452,
+                    "confidence": [
+                      2002.045205479452,
+                      2002.045205479452
+                    ]
+                  },
+                  "accession": "CY000221",
+                  "region": {
+                    "value": "Asia"
+                  },
+                  "country": {
+                    "value": "China"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G310T",
+                      "G612A"
+                    ],
+                    "HA": [
+                      "V104F",
+                      "M204I"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA: V104F, M204I"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000008",
+                "node_attrs": {
+                  "div": 0.01120492823537286,
+                  "num_date": {
+                    "value": 2001.9170887651537,
+                    "confidence": [
+                      2001.7451008540936,
+                      2002.0213530524406
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A666G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "CY000552_A_New_York_115_2002",
+                    "node_attrs": {
+                      "div": 0.01120492823537286,
+                      "num_date": {
+                        "value": 2002.1027397260275,
+                        "confidence": [
+                          2002.1027397260275,
+                          2002.1027397260275
+                        ]
+                      },
+                      "accession": "CY000557",
+                      "region": {
+                        "value": "Asia"
+                      },
+                      "country": {
+                        "value": "Australia"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "CY013812_A_New_York_C4_2002",
+                    "node_attrs": {
+                      "div": 0.01238106789896513,
+                      "num_date": {
+                        "value": 2002.0863013698631,
+                        "confidence": [
+                          2002.0863013698631,
+                          2002.0863013698631
+                        ]
+                      },
+                      "accession": "CY013817",
+                      "region": {
+                        "value": "Asia"
+                      },
+                      "country": {
+                        "value": "New Zealand"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A201G",
+                          "A797G"
+                        ],
+                        "HA": [
+                          "I67M",
+                          "K266R"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA: I67M, K266R"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 0.004718174748685919,
+          "num_date": {
+            "value": 1999.4889049899587,
+            "confidence": [
+              1998.9421914957245,
+              1999.4936947238643
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "EPI358781_A_Fujian_411_2002",
+            "node_attrs": {
+              "div": 0.012398434365621564,
+              "num_date": {
+                "value": 2002.4972602739726,
+                "confidence": [
+                  2002.4972602739726,
+                  2002.4972602739726
+                ]
+              },
+              "accession": "EPI358786",
+              "region": {
+                "value": "Europe"
+              },
+              "country": {
+                "value": "France"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C45T",
+                  "T47C",
+                  "G62A",
+                  "G107T",
+                  "G436T",
+                  "A557G",
+                  "G719A",
+                  "C813A",
+                  "T942C",
+                  "G943A",
+                  "T1116A",
+                  "A1345C",
+                  "G1529A",
+                  "G1581A"
+                ],
+                "HA": [
+                  "L16S",
+                  "G21D",
+                  "*36L",
+                  "G146C",
+                  "K186R",
+                  "R240Q",
+                  "V315I",
+                  "T449P",
+                  "G510E"
+                ]
+              },
+              "labels": {
+                "aa": "HA: L16S, G21D, *36L, G146C, K186R, R240Q, V315I, T449P, G510E"
+              }
+            }
+          },
+          {
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "div": 0.005305798498624581,
+              "num_date": {
+                "value": 1999.4889049899587,
+                "confidence": [
+                  1999.4888620164643,
+                  1999.4966438436227
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "EPI103320_A_Moscow_10_1999",
+                "node_attrs": {
+                  "div": 0.005305798498624581,
+                  "num_date": {
+                    "value": 1999.4972602739726,
+                    "confidence": [
+                      1999.4972602739726,
+                      1999.4972602739726
+                    ]
+                  },
+                  "accession": "EPI103325",
+                  "region": {
+                    "value": "Asia"
+                  },
+                  "country": {
+                    "value": "Korea (the Republic of)"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              },
+              {
+                "name": "CY114324_A_Netherlands_3_2000",
+                "node_attrs": {
+                  "div": 0.007069837868819279,
+                  "num_date": {
+                    "value": 2000.0150273224044,
+                    "confidence": [
+                      2000.0150273224044,
+                      2000.0150273224044
+                    ]
+                  },
+                  "accession": "CY114329",
+                  "region": {
+                    "value": "North America"
+                  },
+                  "country": {
+                    "value": "United States of America (the)"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G336A",
+                      "T470G",
+                      "C1351T"
+                    ],
+                    "HA": [
+                      "I157R"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA: I157R"
+                  }
+                }
+              },
+              {
+                "name": "CY003287_A_New_York_438_2000",
+                "node_attrs": {
+                  "div": 0.006481377237448356,
+                  "num_date": {
+                    "value": 2000.0478142076502,
+                    "confidence": [
+                      2000.0478142076502,
+                      2000.0478142076502
+                    ]
+                  },
+                  "accession": "CY003292",
+                  "region": {
+                    "value": "Asia"
+                  },
+                  "country": {
+                    "value": "Japan"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G437A",
+                      "C814T"
+                    ],
+                    "HA": [
+                      "G146D",
+                      "H272Y"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA: G146D, H272Y"
+                  }
+                }
+              },
+              {
+                "name": "CY114340_A_Netherlands_126_2001",
+                "node_attrs": {
+                  "div": 0.011798835526151265,
+                  "num_date": {
+                    "value": 2001.217808219178,
+                    "confidence": [
+                      2001.217808219178,
+                      2001.217808219178
+                    ]
+                  },
+                  "accession": "CY114345",
+                  "region": {
+                    "value": "South America"
+                  },
+                  "country": {
+                    "value": "Kosovo"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A84G",
+                      "G190A",
+                      "G435A",
+                      "C451A",
+                      "G485A",
+                      "T689C",
+                      "G784A",
+                      "C813T",
+                      "C1346G",
+                      "G1468A",
+                      "C1497A"
+                    ],
+                    "HA": [
+                      "E64K",
+                      "Q151K",
+                      "G162E",
+                      "F230S",
+                      "T449S",
+                      "G490S"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA: E64K, Q151K, G162E, F230S, T449S, G490S"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
